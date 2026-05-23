@@ -104,7 +104,7 @@
             const nuevoMensaje = document.createElement('div');
             
             // Estilo táctil y limpio para los globos de texto
-            nuevoMensaje class="bg-gray-700/50 p-4 rounded-xl border-l-4 border-amber-500 shadow-md break-words";
+            nuevoMensaje.className ="bg-gray-700/50 p-4 rounded-xl border-l-4 border-amber-500 shadow-md break-words";
             nuevoMensaje.innerHTML = `<span class="block text-xs font-black tracking-wide uppercase text-amber-400">${datos.remitente}</span> <p class="mt-1 text-gray-100 text-base">${datos.texto}</p>`;
             
             contenedor.prepend(nuevoMensaje);
